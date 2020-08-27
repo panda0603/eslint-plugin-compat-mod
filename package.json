@@ -1,15 +1,14 @@
 {
-  "_from": "eslint-plugin-compat-mod",
-  "_id": "eslint-plugin-compat-mod@1.0.0",
+  "_from": "@devahn/eslint-plugin-compat",
   "_inBundle": false,
-  "_location": "/eslint-plugin-compat-mod",
+  "_location": "/@devahn/eslint-plugin-compat",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "eslint-plugin-compat-mod",
-    "name": "eslint-plugin-compat-mod",
-    "escapedName": "eslint-plugin-compat-mod",
+    "raw": "@devahn/eslint-plugin-compat",
+    "name": "@devahn/eslint-plugin-compat",
+    "escapedName": "@devahn/eslint-plugin-compat",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -40,11 +39,6 @@
     "url": "https://github.com/panda0603/eslint-plugin-compat-mod/issues"
   },
   "bundleDependencies": false,
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/eslint-plugin-compat-mod",
-    "logo": "https://opencollective.com/opencollective/logo.txt"
-  },
   "dependencies": {
     "ast-metadata-inferer": "^0.4.0",
     "browserslist": "^4.12.2",
@@ -74,7 +68,7 @@
     "benchmark": "^2.1.4",
     "browserslist-config-erb": "^0.0.1",
     "electron": "^9.0.5",
-    "eslint": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0",
+    "eslint": "^7.7.0",
     "eslint-config-airbnb-typescript": "^8.0.2",
     "eslint-config-bliss": "^5.0.0",
     "eslint-plugin-import": "^2.22.0",
@@ -103,7 +97,7 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
-  "name": "eslint-plugin-compat-mod",
+  "name": "@devahn/eslint-plugin-compat",
   "peerDependencies": {
     "eslint": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
   },
@@ -123,8 +117,7 @@
     "spec": "jest --testPathIgnorePatterns test/e2e-repo.spec.ts /benchmarks-tmp",
     "spec:e2e": "jest test/e2e-repo.spec.ts",
     "test": "yarn lint && yarn build && yarn spec",
-    "tsc": "tsc",
-    "version": "yarn build"
+    "tsc": "tsc"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
