@@ -1,16 +1,16 @@
 {
-  "_from": "eslint-plugin-compat",
-  "_id": "eslint-plugin-compat@3.8.0",
+  "_from": "eslint-plugin-compat-mod",
+  "_id": "eslint-plugin-compat-mod@1.0.0",
   "_inBundle": false,
   "_integrity": "sha512-5CuWUSZXZkXLCQJBriEpndn/YWrvggDSHTpRJq++kR8GVcsWbTdp8Eh+nBA7JlrNi7ZJ/+kniOVXmn3bpnxuRA==",
-  "_location": "/eslint-plugin-compat",
+  "_location": "/eslint-plugin-compat-mod",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "eslint-plugin-compat",
-    "name": "eslint-plugin-compat",
-    "escapedName": "eslint-plugin-compat",
+    "raw": "eslint-plugin-compat-mod",
+    "name": "eslint-plugin-compat-mod",
+    "escapedName": "eslint-plugin-compat-mod",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -19,12 +19,11 @@
     "#DEV:/",
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/eslint-plugin-compat/-/eslint-plugin-compat-3.8.0.tgz",
-  "_shasum": "2348d6105e7e87b823ae3b97b349512a2a45a7f2",
-  "_spec": "eslint-plugin-compat",
+  "_shasum": "c421e93fa03f86fcc68a04269f3b669ff405319b",
+  "_spec": "eslint-plugin-compat-mod",
   "_where": "/Users/user/Desktop/dev/newTest",
   "author": {
-    "name": "Amila Welihinda"
+    "name": "Ahn JH"
   },
   "babel": {
     "presets": [
@@ -42,12 +41,12 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/amilajack/eslint-plugin-compat/issues"
+    "url": "https://github.com/amilajack/eslint-plugin-compat-mod/issues"
   },
   "bundleDependencies": false,
   "collective": {
     "type": "opencollective",
-    "url": "https://opencollective.com/eslint-plugin-compat",
+    "url": "https://opencollective.com/eslint-plugin-compat-mod",
     "logo": "https://opencollective.com/opencollective/logo.txt"
   },
   "dependencies": {
@@ -96,7 +95,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://github.com/amilajack/eslint-plugin-compat#readme",
+  "homepage": "",
   "jest": {
     "testEnvironment": "node",
     "testPathIgnorePatterns": [
@@ -114,7 +113,7 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
-  "name": "eslint-plugin-compat",
+  "name": "eslint-plugin-compat-mod",
   "peerDependencies": {
     "eslint": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
   },
@@ -125,7 +124,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amilajack/eslint-plugin-compat.git"
+    "url": "git+https://github.com/panda0603/eslint-plugin-compat-mod.git"
   },
   "scripts": {
     "benchmarks": "ts-node-transpile-only test/benchmarks.ts",
@@ -137,5 +136,5 @@
     "tsc": "tsc",
     "version": "yarn build"
   },
-  "version": "3.8.0"
+  "version": "1.0.0"
 }
