@@ -2,7 +2,6 @@
   "_from": "eslint-plugin-compat-mod",
   "_id": "eslint-plugin-compat-mod@1.0.0",
   "_inBundle": false,
-  "_integrity": "sha512-5CuWUSZXZkXLCQJBriEpndn/YWrvggDSHTpRJq++kR8GVcsWbTdp8Eh+nBA7JlrNi7ZJ/+kniOVXmn3bpnxuRA==",
   "_location": "/eslint-plugin-compat-mod",
   "_phantomChildren": {},
   "_requested": {
@@ -19,9 +18,6 @@
     "#DEV:/",
     "#USER"
   ],
-  "_shasum": "c421e93fa03f86fcc68a04269f3b669ff405319b",
-  "_spec": "eslint-plugin-compat-mod",
-  "_where": "/Users/user/Desktop/dev/newTest",
   "author": {
     "name": "Ahn JH"
   },
@@ -41,7 +37,7 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/amilajack/eslint-plugin-compat-mod/issues"
+    "url": "https://github.com/panda0603/eslint-plugin-compat-mod/issues"
   },
   "bundleDependencies": false,
   "collective": {
@@ -96,12 +92,6 @@
     "lib"
   ],
   "homepage": "",
-  "jest": {
-    "testEnvironment": "node",
-    "testPathIgnorePatterns": [
-      "/benchmarks-tmp/"
-    ]
-  },
   "keywords": [
     "eslint",
     "browser",
