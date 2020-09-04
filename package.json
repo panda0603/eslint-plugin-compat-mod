@@ -119,5 +119,5 @@
     "test": "yarn lint && yarn build && yarn spec",
     "tsc": "tsc"
   },
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
